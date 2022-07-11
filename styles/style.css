@@ -57,7 +57,7 @@ input:focus {
 .add__new-card img {
   width: 25%;
 }
-.logged__card {
+/* .logged__card {
   background-color: #13a024;
   width: 25%;
 }
@@ -68,7 +68,7 @@ input:focus {
 .logged__card-user img {
   max-width: 30%;
   height: auto;
-}
+} */
 .main__card-banks-list {
   display: flex;
   max-width: 100%;
@@ -126,6 +126,7 @@ input:focus {
 
 .main__card-data img {
   max-width: 100%;
+  object-fit: contain;
   height: auto;
 }
 

@@ -130,6 +130,7 @@ input:focus {
 }
 
 .main__card-cvc {
+  border-radius: 5px;
   width: 30%;
   padding: 20px 20px 20px 20px;
   background-color: #ebeeef;
@@ -163,4 +164,13 @@ input:focus {
 .main__card-checkbox-span-block {
   display: block;
   opacity: 1;
+}
+
+.main__card-checkbox-span-block a {
+  color: blue;
+}
+
+.main__CVC-span-block {
+  display: block;
+  opacity: 0.6;
 }

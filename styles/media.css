@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+  .main__card-wrapper {
+    flex-direction: column;
+  }
+  .main__card-data {
+    width: 100%;
+  }
+  .main__card-cvc {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .blackline {
+    display: none;
+  }
+  .cvcData {
+    width: 25%;
+  }
+  .main__card-submit input {
+    padding: 20px;
+  }
+  .main__CVC-span-block {
+    display: inline-block;
+    max-width: 180px;
+    margin-left: 10px;
+  }
+  .main__CVC-span-block:first-child {
+    display: block;
+  }
+}

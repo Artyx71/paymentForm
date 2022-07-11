@@ -1,4 +1,7 @@
 @media only screen and (max-width: 600px) {
+  .container {
+    margin: 1rem auto;
+  }
   .main__card-wrapper {
     flex-direction: column;
   }

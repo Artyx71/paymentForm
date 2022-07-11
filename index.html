@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PayForm</title>
+  </head>
+  <body>
+    <section class="addcard">
+      <div class="container">
+        <div class="addcard__wrapper">
+          <!-- <div class="logged__card">
+            <div class="logged__card-user">
+              <img src="images/sberbank.png" alt="#" />
+              <img src="images/visa.png" alt="#" />
+            </div>
+          </div> -->
+          <div class="add__new-card">
+            <a href="#">
+              <img src="images/addCard.png" alt="addCardIcon" />
+              <p class="add__new-card-text">Новая Карта</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="main__card">
+      <form action="#" class="main__form">
+        <div class="container">
+          <div class="main__card-wrapper">
+            <div class="main__card-data">
+              <div class="main__card-banks">
+                <ul class="main__card-banks-list">
+                  <li class="main__card-banks-list-item">
+                    <img src="images/mir.png" alt="" />
+                  </li>
+                  <li class="main__card-banks-list-item">
+                    <img src="images/visa.png" alt="" />
+                  </li>
+                  <li class="main__card-banks-list-item">
+                    <img src="images/Mastercard.png" alt="" />
+                  </li>
+                  <li class="main__card-banks-list-item">
+                    <img src="images/maestro.png" alt="" />
+                  </li>
+                  <li class="main__card-banks-list-item">
+                    <img src="images/american_express.png" alt="" />
+                  </li>
+                  <li class="main__card-banks-list-item">
+                    <img src="images/union.png" alt="" />
+                  </li>
+                </ul>
+              </div>
+
+              <label for="cardNums">
+                <span class="main__card-span-block">Номер карты</span>
+                <input type="text" class="cardNumber" maxlength="16" required />
+                <span class="main__card-span-block">Введите номер карты</span>
+              </label>
+              <label for="cardExpDate">
+                <span class="main__card-span-block">Действует до </span>
+                <input
+                  type="text"
+                  class="expDate"
+                  maxlength="2"
+                  placeholder="ММ"
+                  required
+                />
+                <span>/</span>
+                <input
+                  type="text"
+                  class="expDate"
+                  maxlength="2"
+                  placeholder="ГГ"
+                  required
+                />
+              </label>
+            </div>
+            <div class="main__card-cvc">
+              <div class="blackline"></div>
+              <label for="#"
+                ><span class="main__card-span-block">CVV/CVC</span>
+                <input
+                  type="password"
+                  class="cvcData"
+                  maxlength="3"
+                  placeholder="000"
+                  required
+                />
+                <span class="main__card-span-block"
+                  >три цифры с обратной стороны карты</span
+                >
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <label for="cardSave">
+            <input type="checkbox" required />
+            <span
+              >Запомнить карту. Это небезопасно.
+              <span class="main__card-checkbox-span-block"
+                >Сохраняя карту, вы соглашаетесь с
+                <a href="#">условиями привязки карты.</a></span
+              ></span
+            >
+          </label>
+
+          <div class="main__card-submit container">
+            <label for="cardSubmit"
+              ><input type="submit" value="Пополнить"
+            /></label>
+          </div>
+        </div>
+      </form>
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
